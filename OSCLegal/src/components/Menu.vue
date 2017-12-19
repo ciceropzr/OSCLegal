@@ -27,17 +27,18 @@
 </script>
 <style scoped>
 
+section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	width: 100%;
+	min-height: 100%;
+}
+
 .logo-menu {
 	display: flex;
 	justify-content: center;
-}
-
-section {
-	display: flex;
-	align-items: flex-end;
-	width: 100%;
-	min-height: 100%;
-	margin: 3vh 
 }
 
 img {
@@ -46,7 +47,6 @@ img {
 
 .menu {
 	display: flex;
-
 	width: 60%;
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div class="Home">
-    <section>
+    <section class="menu">
       <Menu></Menu>
     </section>
     <section class="corpo">
@@ -21,13 +21,13 @@ export default {
 
 <style scoped>
 
-Menu {
-  height: 30vh;
-  margin: 9.5%
+.menu {
+  height: 20vh;
+  margin: auto
 }
 
 .corpo {
-  height: 100vh;
+  height: 80vh;
 }
 
 </style>
